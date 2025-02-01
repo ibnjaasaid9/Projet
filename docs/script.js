@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         `;
                         container.appendChild(exoDiv);
 
-                        // Mise à jour MathJax après l'ajout du contenu
+                        // Met à jour MathJax pour afficher les formules LaTeX
                         MathJax.typeset();
                     })
                     .catch(error => console.error("❌ Erreur de chargement du fichier :", fichier, error));
